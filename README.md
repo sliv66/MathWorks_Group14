@@ -3,11 +3,8 @@
 ------------------------------------------------------
 > **Engineering Pathways Program – MATLAB Internship**  
 > Project Hub: [Battery Fast Charging Optimization](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Battery%20Fast%20Charging%20Optimization)
-
 ------------------------------------------------------
-
 ## 🎯 Project Overview
-
 This project simulates and evaluates fast-charging strategies for lithium-ion batteries using the **Single Particle Model (SPM)** in Simscape Battery.
 Each team member has their models, scope, and feedback from their contributions for the project. Files and data mentioned throughout the READme.md can be found in team member's Media folder.
 
@@ -16,30 +13,22 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 - Voltage behavior
 - Thermal rise
 - Final SOC performance
-
----
-
+------------------------------------------------------
 ## 📘 Project Goals
-
 1. **SPM Familiarization** – Understand model simplifications & lithium plating risk approximation  
 2. **Battery Simulation Setup** – Tune parameters (initial SOC, cutoff voltage, thermal)  
 3. **Baseline CC–CV Charging** – Implement reference profile & compare against custom methods  
 4. **Multi-Stage Fast Charging** – Use switching logic, relay cutoffs, taper control  
 5. **Analysis** – Log SOC, temp, current, voltage over time; recommend optimized profile  
-
 ------------------------------------------------------------
-
 ## 📁 Team Members & Contributions
----
 | **River**      | Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments |
 
 | **Andrew**     | Built multi-cell SPM Pack model, focused on current stability, temperature-controlled charge cycles           |
 
 | **Roberto**    | Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation                    |
-
 ---------------------------
 ## 🎓 Onboardings Completed
----
 - ✅ Simulink Onboarding
 - https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
 - ✅ Simscape Onboarding
@@ -49,18 +38,13 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 - ✅ Battery State Estimation Onboarding *(River only)*
 - MATLAB > SIMULINK > LEARN > ELECTRIFICATION > BATTERY STATE ESTIMATION
 ------------------------------
-
 ## 🧰 Model Architecture Summary (`CurrentModelSPM_Test.slx`)
----
 > This section explains the main building blocks and logic inside the battery charging model.
-
 * 🔧 Core **blocks used**
 * 🧮 Key **constants and parameters**
 * 🔁 Subsystems and control structures
 * 📊 Logging and outputs
-
 ---
-
 ### 🔷 Core Simscape Battery Blocks
 
 | Block                         | Purpose                                                                  |
