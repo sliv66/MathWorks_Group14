@@ -134,7 +134,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 ---
 
 
-## 📈 Example Results From Scope
+## 📈 Example Result From Scope
 
 ### 🔬 Scope: `CurrentModelSPM_Test.slx`
 - Results vary based on Block Parameter tuning
@@ -164,23 +164,14 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 | Max Temp      | ~304 K             |
 | Current Peaks | 20 A (step-wise)   |
 
----
+---<img width="1079" height="851" alt="Scope from River" src="https://github.com/user-attachments/assets/b2ee6a6e-0b88-40f0-ba10-90acca11bf0a" />
+
 
 ## 🧠 Reflections
 
 - **Switch logic worked as planned**, using 3 thresholds to simulate tapering — but it remained **digitally isolated** due to Simulink/Simscape mismatch.
 - SPM modeling is responsive — but **requires taper control or relays** to prevent model failure after 66% SOC.
 - **Battery State Estimation** helped monitor SOC accurately across cycles.
-
----
-
-## 🧩 Team Comparison Summary
-
-| Member   | Focus                     | Result Highlight |
-|----------|---------------------------|------------------|
-| River    | Switch logic + SOC tuning | SOC: 0.30→0.57; 304 K max temp |
-| Andrew   | Pack-based SPM model      | Temp control stabilized full charges |
-| Roberto  | CC–CV tuning w/ relays    | Full profile traced with baseline current |
 
 ---
 
@@ -203,22 +194,21 @@ MathWorks\_Group14\_Submission/
 
 ---
 
-## ✅ Next Steps (If Time Allows)
+## ✅ Next Steps
 
 - Integrate switch logic into full physical path
 - Compare charge tapering methods (SOC vs Time control)
 - Generate shared report or presentation slides for final documentation
 
 > **Submitted by:**  
-> River, Andrew, Roberto — Group 14, MathWorks Engineering Pathways
+> River Covey, Andrew Prince, Roberto Duenas — Group 14, MathWorks Engineering Pathways
 
-----------------------------------------------------------------------
-Documentation:
-
+------------------------------------------------------------------------------------------
+**Documentation:**
+https://www.mathworks.com/products/simscape-battery.html
+https://www.mathworks.com/help/simscape-battery/ref/batterysingleparticle.html
+https://www.mathworks.com/company/technical-articles/generating-safe-fast-charge-profiles-for-ev-batteries.html
+https://www.mathworks.com/help/simscape-battery/ug/battery-constant-current-constant-voltage.html
+https://www.mathworks.com/videos/simscape-battery-essentials-part-6-battery-charging-and-discharging-1663756212085.html
 https://www.mathworks.com/help/simscape-battery/ug/battery-state-of-charge-estimation.html
-
-
----
-
-Let me know if you'd like this as a ZIP folder with filenames or converted to GitHub Markdown and/or PDF.
-
+https://www.mathworks.com/help/sldo/ug/perform-grouped-estimation-of-model-parameters-for-single-particle-battery-model.html
