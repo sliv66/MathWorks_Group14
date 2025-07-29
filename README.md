@@ -9,6 +9,7 @@
 ## 🎯 Project Overview
 
 This project simulates and evaluates fast-charging strategies for lithium-ion batteries using the **Single Particle Model (SPM)** in Simscape Battery.
+Each team member has their models, scope, and feedback from their contributions for the project. Files mentioned later in READme.md can be found in one of the team member's Media files
 
 We explored how charging logic, current profiles, temperature limits, and SOC thresholds affect:
 - Charging time
@@ -156,7 +157,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 
 ---
 
-## 📊 Data Table
+## 📊 Data Table 
 
 | Metric        | Value              |
 |---------------|--------------------|
@@ -166,7 +167,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 | Max Voltage   | ~3.56 V            |
 | Max Temp      | ~304 K             |
 | Current Peaks | 20 A (step-wise)   |
-
+Folders > River's Media
 
 ## 🧠 Reflections
 
