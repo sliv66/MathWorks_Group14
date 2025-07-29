@@ -50,7 +50,7 @@ Because of how engaging and rewarding I found this project, I have decided to co
 ## Images
 <img width="1426" height="914" alt="Battery Builder Image" src="https://github.com/user-attachments/assets/40694454-a0d1-40a9-b0ca-3eac92621c4d" />
 <img width="1504" height="647" alt="Model Image" src="https://github.com/user-attachments/assets/fdf3dc16-026c-49b3-b352-2b8fefdc7270" />
-<img width="425" height="494" alt="image - Battery Charging Current Limit Params" src="https://github.com/user-attachments/assets/82f54b2d-ee30-4b7e-a99b-b55d6063767b" /><img width="455" height="481" alt="image - Relay Params" src="https://github.com/user-attachments/assets/1bc08e10-cf07-426e-af2f-989ea4d11ca4" /><img width="420" height="290" alt="image - Unit delay Params" src="https://github.com/user-attachments/assets/31781559-f6eb-4acc-828e-926a153cb0e9" /><img width="418" height="636" alt="image" src="https://github.com/user-attachments/assets/223f02be-41f1-4c0b-91d6-0a4d2d8c5a21" />
+<img width="418" height="636" alt="image" src="https://github.com/user-attachments/assets/223f02be-41f1-4c0b-91d6-0a4d2d8c5a21" /><img width="425" height="494" alt="image - Battery Charging Current Limit Params" src="https://github.com/user-attachments/assets/82f54b2d-ee30-4b7e-a99b-b55d6063767b" /><img width="455" height="481" alt="image - Relay Params" src="https://github.com/user-attachments/assets/1bc08e10-cf07-426e-af2f-989ea4d11ca4" /><img width="420" height="290" alt="image - Unit delay Params" src="https://github.com/user-attachments/assets/31781559-f6eb-4acc-828e-926a153cb0e9" />
 <img width="1413" height="937" alt="Scope Image" src="https://github.com/user-attachments/assets/f6776ade-dee4-40b3-8ca8-3b8e13db7ace" />
 
 
