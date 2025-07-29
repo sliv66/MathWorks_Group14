@@ -19,6 +19,9 @@ Our simulations ran for **24 hours (a full day)** to see how the battery perform
 
 ## 2. How We Tested Charging
 
+<img width="1331" height="671" alt="Screenshot 2025-07-29 at 2 34 10 PM" src="https://github.com/user-attachments/assets/c86f3d77-f863-4bd9-8f61-cac0161f0696" />
+
+
 We used a digital model of a battery in Simulink. The core of our setup included:
 
 * **Battery Model (SPM):** This component simulates the battery's chemical and electrical behavior.
