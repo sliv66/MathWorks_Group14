@@ -19,3 +19,19 @@ Early assumptions about voltage limits based solely on initial SOC values were i
 ### Battery Building
 
 Constructing the battery model was simpler than initially anticipated. The process involved defining battery dimensions, selecting the battery type, and specifying the desired capacity. Efforts were made to closely replicate the specifications of an iPhone 15 battery based on publicly available data. To align with modern smartphone batteries, a single-cell configuration was utilized, making the simulation relevant to contemporary phone battery technology.
+
+Work Done:
+Onramps:
+- Simulink Onboard
+- Simscape Onramp
+- Simscape Battery Onramp
+
+Research:
+- Santhanagopalan & White (2006) – First EKF on a reduced Doyle‑Fuller‑Newman model
+- COMSOL Multiphysics 6.3 - Single-Particle Modeling of Lithium-Ion Batteries
+- Dong Zhang, Satadru Dey, Scott J. Moura - Lithium-Ion Battery State Estimation for a Single Particle Model
+
+Videos:
+- https://www.mathworks.com/videos/from-electrode-to-pack-simulate-and-tune-fast-charge-profiles-1717557216452.html
+
+General Testing with Github around 50 hours
