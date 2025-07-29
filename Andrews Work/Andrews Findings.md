@@ -2,7 +2,7 @@
 
 ## Battery Voltage Behavior
 
-The terminal voltage at full state of charge (SOC = 1) is approximately 3.515 V, and at empty (SOC = 0) it is about 3.0 V. This observation indicated that the battery voltage does not rise linearly with SOC, reflecting the inherent nonlinear relationship between voltage and SOC.
+The terminal voltage at full state of charge (SOC = 1) is approximately 3.515 V, and at empty (SOC = 0), it is about 3.0 V. This observation indicates that the battery voltage does not rise linearly with SOC, reflecting the inherent nonlinear relationship between voltage and SOC.
 
 ## Effects of Charging Current
 
@@ -19,6 +19,15 @@ Early assumptions about voltage limits based solely on initial SOC values were i
 ## Battery Building
 
 Constructing the battery model was simpler than initially anticipated. The process involved defining battery dimensions, selecting the battery type, and specifying the desired capacity. Efforts were made to closely replicate the specifications of an iPhone 15 battery based on publicly available data. To align with modern smartphone batteries, a single-cell configuration was utilized, making the simulation relevant to contemporary phone battery technology.
+
+## Personal Reflections
+Working on this project provided an intellectually fulfilling experience. I gained deep insight into how batteries function from a fundamental physics perspective, particularly regarding their behavior during charging and discharging cycles. Additionally, I learned the significant benefits and capabilities of using the Single Particle Model (SPM) for battery modeling, and now very much appreciate the practicality of this modeling approach.
+
+Upon reflection with the team, we reached a consensus that focusing exclusively on the Simscape Battery Onramp from the beginning would have been more beneficial, rather than allocating time to multiple introductory onramps. Such an approach would have allowed us to dive deeper into the theoretical foundations of SPM, maximizing our understanding to be able to troubleshoot more efficiently.
+
+The most rewarding realization for me was discovering how profoundly temperature affects the battery model. By the project's conclusion, it became clear that temperature critically regulates the battery's current, voltage, and state of charge (SOC), making it a primary factor in our model breaking.
+
+Because of how engaging and rewarding I found this project, I have decided to continue working on it throughout the summer and perhaps beyond, aiming to further expand and complete it fully.
 
 ## Work Done:
 
