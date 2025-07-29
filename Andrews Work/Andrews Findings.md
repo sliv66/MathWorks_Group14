@@ -32,7 +32,7 @@ Because of how engaging and rewarding I found this project, I have decided to co
 ## Work Done:
 
 ### Onramps:
-- Simulink Onboard
+- Simulink Onramp
 - Simscape Onramp
 - Simscape Battery Onramp
 
