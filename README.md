@@ -156,7 +156,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 
 ---
 
-## 📊 River’s Data Table
+## 📊 Data Table
 
 | Metric        | Value              |
 |---------------|--------------------|
