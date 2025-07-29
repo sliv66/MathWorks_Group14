@@ -164,8 +164,6 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 | Max Temp      | ~304 K             |
 | Current Peaks | 20 A (step-wise)   |
 
----<img width="1079" height="851" alt="Scope from River" src="https://github.com/user-attachments/assets/b2ee6a6e-0b88-40f0-ba10-90acca11bf0a" />
-
 
 ## 🧠 Reflections
 
