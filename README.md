@@ -1,8 +1,60 @@
 # MathWorks_Group14
 Engineering Pathways Program - MathWorks MATLAB Internship - Group 14 - Fast-Charging Battery Optimization
 Project Link - https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Battery%20Fast%20Charging%20Optimization
-
 ---
+Project Goals:
+1. Familiarize with the SPM Battery Model -
+
+Study the theory behind the Battery Single Particle Model (SPM) block in Simscape Battery and how it simplifies complex electrochemical equations. Identify key parameters: solid-phase concentration, electrolyte concentration, and thermal effects.
+
+Note: A more rigorous method to evaluate lithium plating risk is to compare the electric potentials at the solid and liquid phases at the anode/separator interface. When the potential difference approaches zero, metallic lithium plating becomes more favorable. However, to reduce modeling complexity with the SPM, we use lithium-ion concentrations as a practical substitute for estimating plating risk.
+
+2. Set Up the Battery Simulation -
+
+Use the SPM block and configure key parameters such as nominal capacity, initial state of charge (SOC), cutoff voltage, and thermal properties (if modeling heat).
+Explore model inputs (charging current) and outputs (SOC, voltage, temperature).
+
+3. Simulate Baseline CC–CV Charging -
+
+Use the Battery CC–CV controller block to implement the standard charging method as reference.
+Simulate the CC–CV process and record metrics such as:Total charging time, Maximum temperature (if thermal modeling is enabled), Final SOC and terminal voltage behavior.
+
+4. Design and Simulate Multi-Stage Charging Profiles -
+
+Create custom fast-charging strategies using step functions, lookup tables, or Signal Builder blocks.
+Profiles may include 2–4 constant current stages (e.g., high current → medium → low → taper).
+Define transitions based on time or SOC thresholds.
+Run simulations for each profile and document performance.
+
+5. Analyze and Compare Results -
+
+For each charging profile, collect:Charging duration, Maximum voltage and temperature, and Final SOC.
+Compare performance visually and numerically against the CC–CV baseline.
+Recommend profiles that offer faster charging while staying within safety limits.
+
+--------------------
+Results 
+------------------------------------------------
+|Trial 1.|Charging duration:       100 seconds |
+|        |Maximum voltage:               3.6 V |
+|        |temperature:                   303 k |
+|        |Final SOC:         .666 * 100% = 66% |
+------------------------------------------------
+
+------------------------------------------------
+|Trial 2.|Charging duration:       100 seconds |
+|        |Maximum voltage:               3.6 V |
+|        |temperature:                   303 k |
+|        |Final SOC:         .666 * 100% = 66% |
+------------------------------------------------
+
+------------------------------------------------
+|Trial 3.|Charging duration:       100 seconds |
+|        |Maximum voltage:               3.6 V |
+|        |temperature:                   303 k |
+|        |Final SOC:         .666 * 100% = 66% |
+------------------------------------------------
+
 
 ## Andrew's Findings
 
