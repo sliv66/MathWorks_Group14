@@ -21,14 +21,16 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 4. **Multi-Stage Fast Charging** – Use switching logic, relay cutoffs, taper control  
 5. **Analysis** – Log SOC, temp, current, voltage over time; recommend optimized profile  
 ------------------------------------------------------------
-## 📁 Team Members & Contributions
-| **River**      | Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments |
+## 📁 Team Members & Contributions ##
+---
+Please refer to **MathWorks_Group14/[Team-Member's-Name Work]** for more in-depth look at contributions and team reports
 
-| **Andrew**     | Built multi-cell SPM Pack model, parameter tuning, temperature-controlled charge cycles, focused on current, voltage, SOC, and temperature stability |
+| Team Member | Contributions                                                                                                    |
+| :---------- | :--------------------------------------------------------------------------------------------------------------- |
+| **River** | Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments      |
+| **Andrew** | Built multi-cell SPM Pack model, parameter tuning, temperature-controlled charge cycles, focused on current, voltage, SOC, and temperature stability |
+| **Roberto** | Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation                       |
 
-| **Roberto**    | Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation                    |
-
----------------------------
 ## 🎓 Onboardings Completed
 - ✅ Simulink Onboarding
 - https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
