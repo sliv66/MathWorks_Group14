@@ -18,7 +18,7 @@ Early assumptions about voltage limits based solely on initial SOC values were i
 
 ## Battery Building
 
-Constructing the battery model was simpler than initially anticipated. The process involved defining battery dimensions, selecting the battery type, and specifying the desired capacity. Efforts were made to closely replicate the specifications of an iPhone 15 battery based on publicly available data. To align with modern smartphone batteries, a single-cell configuration was utilized, making the simulation relevant to contemporary phone battery technology.
+Constructing the battery model was more simple than initially anticipated. The process involved defining battery dimensions, selecting the battery type, and specifying the desired capacity. Efforts were made to closely replicate the specifications of an iPhone 15 battery based on publicly available data. To align with modern smartphone batteries, a single-cell configuration was utilized, making the simulation relevant to contemporary phone battery technology.
 
 ## Personal Reflections
 Working on this project provided an intellectually fulfilling experience. I gained deep insight into how batteries function from a fundamental physics perspective, particularly regarding their behavior during charging and discharging cycles. Additionally, I learned the significant benefits and capabilities of using the Single Particle Model (SPM) for battery modeling, and now very much appreciate the practicality of this modeling approach.
