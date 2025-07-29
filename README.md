@@ -1,4 +1,4 @@
-# # **MathWorks Group 14**
+#  **MathWorks Group 14**
 # 🔋 Battery Fast Charging with Simscape Battery
 ------------------------------------------------------
 > **Engineering Pathways Program – MATLAB Internship**  
