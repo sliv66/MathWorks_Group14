@@ -9,7 +9,7 @@
 ## 🎯 Project Overview
 
 This project simulates and evaluates fast-charging strategies for lithium-ion batteries using the **Single Particle Model (SPM)** in Simscape Battery.
-Each team member has their models, scope, and feedback from their contributions for the project. Files and data mentioned later in READme.md can be found in team member's Media folder.
+Each team member has their models, scope, and feedback from their contributions for the project. Files and data mentioned throughout the READme.md can be found in team member's Media folder.
 
 We explored how charging logic, current profiles, temperature limits, and SOC thresholds affect:
 - Charging time
