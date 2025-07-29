@@ -33,6 +33,7 @@ Research:
 
 Videos:
 - https://www.mathworks.com/videos/from-electrode-to-pack-simulate-and-tune-fast-charge-profiles-1717557216452.html
+- https://www.youtube.com/watch?v=QbRaLMtNjt8&t=255s
 
 General Testing with Github around 50 hours
 
