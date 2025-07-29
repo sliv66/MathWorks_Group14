@@ -1,8 +1,6 @@
----
 
 ## ✅ Final `README.md` — MathWorks\_Group14
 
-markdown
 # 🔋 Battery Fast Charging with Simscape Battery – MathWorks Group 14
 
 > **Engineering Pathways Program – MATLAB Internship**  
@@ -33,28 +31,27 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 ---
 
 ## 📁 Team Members & Contributions
-
-| Name     | Role |
-|----------|------|
-| **River** (me) | Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments |
+----------------------------------
+| **River**      | Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments |
 | **Andrew**     | Built multi-cell SPM Pack model, focused on current stability, temperature-controlled charge cycles |
 | **Roberto**    | Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation |
 
 ---
 
-## 🎓 Onboarding Completed
-
-- ✅ Simulink Onboarding  
-- ✅ Simscape Onboarding  
-- ✅ Simscape Battery Onboarding  
-- ✅ Battery State Estimation *(River only)*  
+## 🎓 Onboardings Completed
+---------------------------
+- ✅ Simulink Onboarding                                | https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
+- ✅ Simscape Onboarding                                | https://matlabacademy.mathworks.com/details/simscape-onramp/simscape
+- ✅ Simscape Battery Onboarding                        | https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb
+- ✅ Battery State Estimation Onboarding *(River only)* | MATLAB > SIMULINK > LEARN > ELECTRIFICATION > BATTERY STATE ESTIMATION
 
 ---
 
-## 📈 River’s Results (from Scope)
+## 📈 Example Results From Scope
 
 ### 🔬 Scope: `CurrentModelSPM_Test.slx`
-- **Simulation Duration**: `T = 86,400 s`  
+- Results vary based on Block Parameter tuning
+- **Simulation Duration**: `T = 86,400 seconds`, `T = 24 hours`
 - **SOC Range**: `0.30 → ~0.57` (27% gain)  
 - **Peak Battery Voltage**: `~3.56 V`  
 - **Current Pattern**: Peaks at 20 A → drops to 0 in ~7 cycles  
@@ -75,7 +72,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 |---------------|--------------------|
 | Initial SOC   | 0.30               |
 | Final SOC     | ~0.57              |
-| Charging Time | ~86,400 s          |
+| Charging Time | ~86,400s/12hr*60s  |
 | Max Voltage   | ~3.56 V            |
 | Max Temp      | ~304 K             |
 | Current Peaks | 20 A (step-wise)   |
@@ -85,7 +82,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 ## 🧠 Reflections
 
 - **Switch logic worked as planned**, using 3 thresholds to simulate tapering — but it remained **digitally isolated** due to Simulink/Simscape mismatch.
-- SPM modeling is responsive — but **requires taper control or relays** to prevent discharge after 70% SOC.
+- SPM modeling is responsive — but **requires taper control or relays** to prevent model failure after 66% SOC.
 - **Battery State Estimation** helped monitor SOC accurately across cycles.
 
 ---
@@ -127,6 +124,11 @@ MathWorks\_Group14\_Submission/
 
 > **Submitted by:**  
 > River, Andrew, Roberto — Group 14, MathWorks Engineering Pathways
+
+----------------------------------------------------------------------
+Documentation:
+
+https://www.mathworks.com/help/simscape-battery/ug/battery-state-of-charge-estimation.html
 
 
 ---
