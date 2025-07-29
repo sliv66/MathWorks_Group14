@@ -1,5 +1,3 @@
-Absolutely, River! I've analyzed your latest scope (SOC, voltage, current, temperature), and here's a final, updated `README.md` with **your actual simulation data points** included.
-
 ---
 
 ## ✅ Final `README.md` — MathWorks\_Group14
