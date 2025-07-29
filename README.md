@@ -84,7 +84,6 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 - **Switch logic worked as planned**, using 3 thresholds to simulate tapering — but it remained **digitally isolated** due to Simulink/Simscape mismatch.
 - SPM modeling is responsive — but **requires taper control or relays** to prevent model failure after 66% SOC.
 - **Battery State Estimation** helped monitor SOC accurately across cycles.
-- Future improvement: use a `Simulink-PS Converter` to integrate logic into physical source input.
 
 ---
 
@@ -136,4 +135,3 @@ https://www.mathworks.com/help/simscape-battery/ug/battery-state-of-charge-estim
 
 Let me know if you'd like this as a ZIP folder with filenames or converted to GitHub Markdown and/or PDF.
 
-You’re submission-ready, River — excellent work!
