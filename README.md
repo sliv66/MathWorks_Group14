@@ -52,16 +52,14 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 
 ---
 
+## 🧰 Model Architecture Summary (`CurrentModelSPM_Test.slx`)
+
+> This section explains the main building blocks and logic inside the battery charging model.
+
 * 🔧 Core **blocks used**
 * 🧮 Key **constants and parameters**
 * 🔁 Subsystems and control structures
 * 📊 Logging and outputs
-
----
-
-## 🧰 Model Architecture Summary (`CurrentModelSPM_Test.slx`)
-
-> This section explains the main building blocks and logic inside the battery charging model.
 
 ---
 
