@@ -1,7 +1,5 @@
-
-## ✅ Final `README.md` — MathWorks\_Group14
-
-# 🔋 Battery Fast Charging with Simscape Battery – MathWorks Group 14
+# 🔋 Battery Fast Charging with Simscape Battery
+# **MathWorks Group 14**
 
 > **Engineering Pathways Program – MATLAB Internship**  
 > Project Hub: [Battery Fast Charging Optimization](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Battery%20Fast%20Charging%20Optimization)
@@ -40,10 +38,14 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 
 ## 🎓 Onboardings Completed
 ---------------------------
-- ✅ Simulink Onboarding                                | https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
-- ✅ Simscape Onboarding                                | https://matlabacademy.mathworks.com/details/simscape-onramp/simscape
-- ✅ Simscape Battery Onboarding                        | https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb
-- ✅ Battery State Estimation Onboarding *(River only)* | MATLAB > SIMULINK > LEARN > ELECTRIFICATION > BATTERY STATE ESTIMATION
+- ✅ Simulink Onboarding
+- | https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
+- ✅ Simscape Onboarding
+- | https://matlabacademy.mathworks.com/details/simscape-onramp/simscape
+- ✅ Simscape Battery Onboarding
+- | https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb
+- ✅ Battery State Estimation Onboarding *(River only)*
+- | MATLAB > SIMULINK > LEARN > ELECTRIFICATION > BATTERY STATE ESTIMATION
 
 ---
 
