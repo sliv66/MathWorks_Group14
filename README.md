@@ -4,7 +4,7 @@ Absolutely, River! I've analyzed your latest scope (SOC, voltage, current, tempe
 
 ## ✅ Final `README.md` — MathWorks\_Group14
 
-```markdown
+markdown
 # 🔋 Battery Fast Charging with Simscape Battery – MathWorks Group 14
 
 > **Engineering Pathways Program – MATLAB Internship**  
@@ -130,7 +130,7 @@ MathWorks\_Group14\_Submission/
 
 > **Submitted by:**  
 > River, Andrew, Roberto — Group 14, MathWorks Engineering Pathways
-```
+
 
 ---
 
