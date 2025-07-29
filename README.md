@@ -56,7 +56,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 | **Current Sensor**            | Measures actual charging current applied                                 |
 | **Voltage Sensor**            | Tracks battery terminal voltage                                          |
 | **Thermal Reference**         | Grounds thermal domain                                                   |
-
+| **Electrical Reference**      | Grounds electrical domain                                                |
 ---
 
 ### 🔧 Simulink Control + Logic
@@ -182,17 +182,19 @@ MathWorks\_Group14\_Submission/
 
 - Integrate switch logic into full physical path
 - Compare charge tapering methods (SOC vs Time control)
+- Create a polished and unified model 
 - Generate shared report or presentation slides for final documentation
 
 > **Submitted by:**  
 > River Covey, Andrew Prince, Roberto Duenas — Group 14, MathWorks Engineering Pathways
 
 ------------------------------------------------------------------------------------------
-**Documentation:**
+## **Documentation:**
 > - https://www.mathworks.com/products/simscape-battery.html
 > - https://www.mathworks.com/help/simscape-battery/ref/batterysingleparticle.html
 > - https://www.mathworks.com/company/technical-articles/generating-safe-fast-charge-profiles-for-ev-batteries.html
 > - https://www.mathworks.com/help/simscape-battery/ug/battery-constant-current-constant-voltage.html
-> - https://www.mathworks.com/videos/simscape-battery-essentials-part-6-battery-charging-and-discharging-1663756212085.html
 > - https://www.mathworks.com/help/simscape-battery/ug/battery-state-of-charge-estimation.html
 > - https://www.mathworks.com/help/sldo/ug/perform-grouped-estimation-of-model-parameters-for-single-particle-battery-model.html
+## **Videos:**
+> - https://www.mathworks.com/videos/simscape-battery-essentials-part-6-battery-charging-and-discharging-1663756212085.html
