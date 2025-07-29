@@ -47,6 +47,93 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 
 ---
 
+* 🔧 Core **blocks used**
+* 🧮 Key **constants and parameters**
+* 🔁 Subsystems and control structures
+* 📊 Logging and outputs
+
+---
+
+## 🧰 Model Architecture Summary (`CurrentModelSPM_Test.slx`)
+
+> This section explains the main building blocks and logic inside the battery charging model.
+
+---
+
+### 🔷 Core Simscape Battery Blocks
+
+| Block                         | Purpose                                                                  |
+| ----------------------------- | ------------------------------------------------------------------------ |
+| **Battery (SPM)**             | Single Particle Model cell behavior (thermal + electrochemical dynamics) |
+| **Controlled Current Source** | Drives current based on control logic (from CC–CV block or custom logic) |
+| **Temperature Sensor**        | Reads cell temperature and outputs to scope/logging                      |
+| **Current Sensor**            | Measures actual charging current applied                                 |
+| **Voltage Sensor**            | Tracks battery terminal voltage                                          |
+| **Thermal Reference**         | Grounds thermal domain                                                   |
+
+---
+
+### 🔧 Simulink Control + Logic
+
+| Block                   | Functionality                                                                  |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| **Relay**               | Enables or disables current based on SOC                                       |
+| **Coulomb Counting**    | Estimates SOC via integration of current                                       |
+| **Switch**              | Enables condition-based current selection (used in custom fast-charging logic) |
+| **Compare to Constant** | Used in SOC logic for current stage transitions                                |
+| **Gain**                | Converts raw values to scale for thresholds                                    |
+| **Logical Operator**    | AND/OR conditions used to control current cutoff                               |
+| **Scope**               | Visualizes: SOC, batteryVoltage, current, temp                                 |
+
+---
+
+### 🧮 Key Constants & Parameters
+
+| Constant Block / Setting    | Value   | Purpose                                     |
+| --------------------------- | ------- | ------------------------------------------- |
+| **Initial SOC**             | 0.3     | Starting state of charge                    |
+| **Cutoff Voltage**          | 3.65 V  | Used in CC–CV logic to transition stages    |
+| **Relay Threshold (SOC)**   | 0.7     | Disables current if SOC > threshold         |
+| **ChargingCurrentLimit**    | 20 A    | Max current applied                         |
+| **Temp limit for safe op.** | \~305 K | Observed max safe thermal limit in practice |
+| **Time Step (Tfinal)**      | 86400 s | Total simulation duration                   |
+
+---
+
+### 📈 Logged Outputs (to Scope)
+
+| Output Name        | Description                                              |
+| ------------------ | -------------------------------------------------------- |
+| **SOC**            | State-of-charge over time (tracked via Coulomb Counting) |
+| **batteryVoltage** | Terminal voltage of the cell                             |
+| **current**        | Charging current (from controller or taper logic)        |
+| **temp**           | Cell temperature in Kelvin                               |
+
+---
+
+### 🧩 Control Flow Summary
+
+1. **Input Current Logic**
+
+   * Can be driven by CC–CV block or custom switch/relay logic
+   * Current routed through Controlled Current Source block
+
+2. **SOC Estimation**
+
+   * Coulomb counting + initial SOC = real-time state-of-charge
+
+3. **Relay Logic**
+
+   * If SOC > 0.7 → cutoff current
+   * Prevents overcharging or post-peak discharge
+
+4. **Thermal Monitoring**
+
+   * Temp sensor outputs logged, scoped, and used for analysis
+
+---
+
+
 ## 📈 Example Results From Scope
 
 ### 🔬 Scope: `CurrentModelSPM_Test.slx`
