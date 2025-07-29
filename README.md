@@ -27,6 +27,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 | **Andrew**     | Built multi-cell SPM Pack model, focused on current stability, temperature-controlled charge cycles           |
 
 | **Roberto**    | Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation                    |
+
 ---------------------------
 ## 🎓 Onboardings Completed
 - ✅ Simulink Onboarding
