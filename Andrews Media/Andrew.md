@@ -37,6 +37,6 @@ Videos:
 General Testing with Github around 50 hours
 
 ## Images
-![Battery current‑limit parameters](Andrews_Media/Andrews_Images/battery_current_limit.png)
+Make sure to check the Image's folder for my project images.
 
 
