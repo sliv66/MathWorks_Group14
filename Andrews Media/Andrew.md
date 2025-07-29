@@ -39,6 +39,6 @@ Constructing the battery model was simpler than initially anticipated. The proce
 ### General Testing with Github around 50 hours
 
 ## Images
-<img width="927" height="399" alt="Battery Builder image" src="https://github.com/user-attachments/assets/84b0c9d1-9d33-4158-9769-8aaca02725f4" />
+<img width="927" height="399" alt="Battery Builder image" src="https://raw.githubusercontent.com/sliv66/MathWorks_Group14/refs/heads/main/Andrews%20Media/Andrews%20Images/Model%20Image.png" />
 
 
