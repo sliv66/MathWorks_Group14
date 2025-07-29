@@ -39,6 +39,10 @@ Constructing the battery model was simpler than initially anticipated. The proce
 ### General Testing with Github around 50 hours
 
 ## Images
-<img width="927" height="399" alt="Battery Builder image" src="https://raw.githubusercontent.com/sliv66/MathWorks_Group14/refs/heads/main/Andrews%20Media/Andrews%20Images/Model%20Image.png" />
+<img width="1426" height="914" alt="Battery Builder Image" src="https://github.com/user-attachments/assets/40694454-a0d1-40a9-b0ca-3eac92621c4d" />
+<img width="1504" height="647" alt="Model Image" src="https://github.com/user-attachments/assets/fdf3dc16-026c-49b3-b352-2b8fefdc7270" />
+<img width="1413" height="937" alt="Scope Image" src="https://github.com/user-attachments/assets/f6776ade-dee4-40b3-8ca8-3b8e13db7ace" />
+<img width="425" height="494" alt="image - Battery Charging Current Limit Params" src="https://github.com/user-attachments/assets/82f54b2d-ee30-4b7e-a99b-b55d6063767b" /><img width="455" height="481" alt="image - Relay Params" src="https://github.com/user-attachments/assets/1bc08e10-cf07-426e-af2f-989ea4d11ca4" />
+
 
 
