@@ -1,4 +1,4 @@
-Model Scope Data
+Model Scope Data:
 
 These graphs show a complete and successful charge and discharge cycle. The control system charges the battery at a constant current until it reaches a State of Charge (SOC) threshold, and then immediately begins to discharge. This model correctly captures the corresponding changes in voltage and temperature.
 
