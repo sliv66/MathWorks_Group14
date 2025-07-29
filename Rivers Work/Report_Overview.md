@@ -1,7 +1,7 @@
 # 🔋 Battery Fast Charging Optimization: Final Report
 
-**Author:** [Your Name / Team Name]  
-**Date:** July 29, 2025
+**Author:** [River Covey]  
+**Date:** July 27, 2025
 
 ---
 
@@ -40,7 +40,7 @@ Simulation duration: **24 hours (86400s)**.
 |---------------------------|-----------------------|------------------------|------------------------|
 | Charge Time              | ~1.5–2 hours          | ~1 hour                | ~74 minutes            |
 | Discharge Time           | ~2 hours              | ~3 hours               | ~19 hours              |
-| Cycles/Day               | ~6–7                  | ~7                     | < 1                    |
+| Cycles/Day               | ~6–7                  | ~3                     | < 1                    |
 | Peak Current             | ~7–8 A                | ~30 A                  | ~5–7 A                 |
 | Max Temperature          | ~29–31°C              | ~29–31°C               | ~35–36°C               |
 | Max Voltage              | ~3.6 V                | ~3.7 V (slight overshoot) | ~3.9–4.0 V (noticeable overshoot) |
