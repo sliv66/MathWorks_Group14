@@ -1,6 +1,6 @@
+# # **MathWorks Group 14**
 # 🔋 Battery Fast Charging with Simscape Battery
-# **MathWorks Group 14**
-
+------------------------------------------------------
 > **Engineering Pathways Program – MATLAB Internship**  
 > Project Hub: [Battery Fast Charging Optimization](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Battery%20Fast%20Charging%20Optimization)
 
