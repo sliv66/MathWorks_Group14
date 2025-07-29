@@ -1,7 +1,6 @@
 # Battery Fast-Charging Optimization: Project Report
 
-**Author:** [River Covey/Group 14]
->**Date:** July 29, 2025
+**Author:** [River Covey/Group 14]   |   **Date:** July 29, 2025
 >| **https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Battery%20Fast%20Charging%20Optimization**
 
 ---
