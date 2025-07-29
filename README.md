@@ -29,26 +29,23 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 ---
 
 ## 📁 Team Members & Contributions
-----------------------------------
-| **River**      | 
-Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments |
-| **Andrew**     |
-Built multi-cell SPM Pack model, focused on current stability, temperature-controlled charge cycles |
-| **Roberto**    |
-Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation |
+---------------------------------------------------------------------------
+| **River**      | Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments |
+| **Andrew**     | Built multi-cell SPM Pack model, focused on current stability, temperature-controlled charge cycles           |
+| **Roberto**    | Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation                    |
 
 ---
 
 ## 🎓 Onboardings Completed
 ---------------------------
 - ✅ Simulink Onboarding
-- | https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
+- https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
 - ✅ Simscape Onboarding
-- | https://matlabacademy.mathworks.com/details/simscape-onramp/simscape
+- https://matlabacademy.mathworks.com/details/simscape-onramp/simscape
 - ✅ Simscape Battery Onboarding
-- | https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb
+- https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb
 - ✅ Battery State Estimation Onboarding *(River only)*
-- | MATLAB > SIMULINK > LEARN > ELECTRIFICATION > BATTERY STATE ESTIMATION
+- MATLAB > SIMULINK > LEARN > ELECTRIFICATION > BATTERY STATE ESTIMATION
 
 ---
 
