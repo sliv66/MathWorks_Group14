@@ -175,6 +175,11 @@ MathWorks\_Group14\_Submission/
 └── README.md
 
 ```
+------------------------------------------------
+## Barriers Encountered
+
+- At aproximately (.7) 70% capacity, our state of charge would plateau
+- Lower Current = Lower Charging Speeds
 
 ------------------------------------------------
 
@@ -198,3 +203,4 @@ MathWorks\_Group14\_Submission/
 > - https://www.mathworks.com/help/sldo/ug/perform-grouped-estimation-of-model-parameters-for-single-particle-battery-model.html
 ## **Videos:**
 > - https://www.mathworks.com/videos/simscape-battery-essentials-part-6-battery-charging-and-discharging-1663756212085.html
+> - https://www.youtube.com/watch?v=nbpJZnLfe4k
