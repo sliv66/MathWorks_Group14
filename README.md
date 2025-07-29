@@ -4,7 +4,7 @@
 > **Engineering Pathways Program – MATLAB Internship**  
 > Project Hub: [Battery Fast Charging Optimization](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Battery%20Fast%20Charging%20Optimization)
 
----
+------------------------------------------------------
 
 ## 🎯 Project Overview
 
@@ -27,21 +27,19 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 4. **Multi-Stage Fast Charging** – Use switching logic, relay cutoffs, taper control  
 5. **Analysis** – Log SOC, temp, current, voltage over time; recommend optimized profile  
 
----
+------------------------------------------------------------
 
 ## 📁 Team Members & Contributions
----------------------------------------------------------------------------
+---
 | **River**      | Parameter tuning, waveform optimization, battery state estimation, switch logic design, SOC sweep experiments |
 
 | **Andrew**     | Built multi-cell SPM Pack model, focused on current stability, temperature-controlled charge cycles           |
 
 | **Roberto**    | Implemented CC–CV profile, relay delay tuning, scope validation and SOC ramp documentation                    |
 
-
----
-
-## 🎓 Onboardings Completed
 ---------------------------
+## 🎓 Onboardings Completed
+---
 - ✅ Simulink Onboarding
 - https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
 - ✅ Simscape Onboarding
@@ -50,11 +48,10 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 - https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb
 - ✅ Battery State Estimation Onboarding *(River only)*
 - MATLAB > SIMULINK > LEARN > ELECTRIFICATION > BATTERY STATE ESTIMATION
-
----
+------------------------------
 
 ## 🧰 Model Architecture Summary (`CurrentModelSPM_Test.slx`)
-
+---
 > This section explains the main building blocks and logic inside the battery charging model.
 
 * 🔧 Core **blocks used**
@@ -113,7 +110,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 | **current**        | Charging current (from controller or taper logic)        |
 | **temp**           | Cell temperature in Kelvin                               |
 
----
+----------------------------------------------
 
 ### 🧩 Control Flow Summary
 
@@ -135,7 +132,7 @@ We explored how charging logic, current profiles, temperature limits, and SOC th
 
    * Temp sensor outputs logged, scoped, and used for analysis
 
----
+----------------------------------------------------
 
 
 ## 📈 Example Result From Scope
@@ -175,7 +172,7 @@ Folders > River's Media
 - SPM modeling is responsive — but **requires taper control or relays** to prevent model failure after 66% SOC.
 - **Battery State Estimation** helped monitor SOC accurately across cycles.
 
----
+--------------------------------------------------
 
 ## 📁 Folder Structure
 
@@ -194,7 +191,7 @@ MathWorks\_Group14\_Submission/
 
 ```
 
----
+------------------------------------------------
 
 ## ✅ Next Steps
 
@@ -207,10 +204,10 @@ MathWorks\_Group14\_Submission/
 
 ------------------------------------------------------------------------------------------
 **Documentation:**
-https://www.mathworks.com/products/simscape-battery.html
-https://www.mathworks.com/help/simscape-battery/ref/batterysingleparticle.html
-https://www.mathworks.com/company/technical-articles/generating-safe-fast-charge-profiles-for-ev-batteries.html
-https://www.mathworks.com/help/simscape-battery/ug/battery-constant-current-constant-voltage.html
-https://www.mathworks.com/videos/simscape-battery-essentials-part-6-battery-charging-and-discharging-1663756212085.html
-https://www.mathworks.com/help/simscape-battery/ug/battery-state-of-charge-estimation.html
-https://www.mathworks.com/help/sldo/ug/perform-grouped-estimation-of-model-parameters-for-single-particle-battery-model.html
+> - https://www.mathworks.com/products/simscape-battery.html
+> - https://www.mathworks.com/help/simscape-battery/ref/batterysingleparticle.html
+> - https://www.mathworks.com/company/technical-articles/generating-safe-fast-charge-profiles-for-ev-batteries.html
+> - https://www.mathworks.com/help/simscape-battery/ug/battery-constant-current-constant-voltage.html
+> - https://www.mathworks.com/videos/simscape-battery-essentials-part-6-battery-charging-and-discharging-1663756212085.html
+> - https://www.mathworks.com/help/simscape-battery/ug/battery-state-of-charge-estimation.html
+> - https://www.mathworks.com/help/sldo/ug/perform-grouped-estimation-of-model-parameters-for-single-particle-battery-model.html
