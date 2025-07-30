@@ -15,4 +15,4 @@ My initial thoughts were that simulation failure was due to violating SOC or vol
 
 Working on this project was a challenging yet worthwhile experience. I gained knowledge in the fundamentals of a lithium-ion battery and how they come in different models like the Single Particle Model (SPM). I learned more about the benefits and capabilities of using this model through my work. A key takeaway from this model is that it utilizes low to mid current profiles to charge and discharge while preserving battery health long term. During my simulation I explored and implemented control systems designing, basic signal processing and electrochemical modeling.
 
-Moving forward, I will still continue to work on this project as it has sparked my curiosity and fired up my desire to complete it.  
+Moving forward, I will still continue to work on this project as it has sparked my curiosity and fired up my desire to complete it!  
